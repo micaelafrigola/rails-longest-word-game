@@ -13,3 +13,18 @@
  *= require_tree .
  *= require_self
  */
+.cards{
+  display: flex;
+  justify-content: space-evenly;
+}
+li{
+  list-style-type: none;
+}
+.card-blue{
+  color: white;
+  background-color: blue;
+  margin-bottom: 20px;
+  font-size: 50px;
+  padding: 20px;
+
+}
